@@ -1,0 +1,25 @@
+server:
+  port: 8080
+person:
+  name: 张三
+  age: 38
+  birthDay: 1985/01/01
+  like: true
+  child:
+    name: 张三丰
+    age: 18
+    birthDay: 2005/01/01
+    text: ["abc","def"]
+  dogs:
+    - name: 旺财
+      age: 2
+    - name: 小黄
+      age: 3
+  cats:
+    c1:
+      id: 1
+      name: 小白
+      #对象也可用{}表示
+    c2: {id: 2,name: 小黑}
+
+
