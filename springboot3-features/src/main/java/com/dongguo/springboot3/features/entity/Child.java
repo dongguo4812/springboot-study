@@ -9,7 +9,7 @@ import java.util.List;
 
 @Data
 @Component
-@Profile({"dev","test"})
+@Profile({"test"})
 public class Child {
     private String name;
     private Integer age;

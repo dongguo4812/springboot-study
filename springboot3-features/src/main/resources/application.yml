@@ -1,3 +1,8 @@
 spring:
   profiles:
-    active: dev
+    active: hehe
+    #总是要激活的环境
+#    include: prod
+    group:
+      haha: dev,test
+      hehe: test,prod
