@@ -1,3 +1,5 @@
+package com.dongguo.springboot3.core.listener;
+
 import org.springframework.boot.ConfigurableBootstrapContext;
 import org.springframework.boot.SpringApplicationRunListener;
 import org.springframework.context.ConfigurableApplicationContext;
