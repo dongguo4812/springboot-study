@@ -1,1 +1,4 @@
-
+robot:
+  name: 张三
+  age: 18
+  email: zhangsan@qq.com

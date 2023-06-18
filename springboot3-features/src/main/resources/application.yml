@@ -6,3 +6,7 @@ spring:
     group:
       haha: dev,test
       hehe: test,prod
+robot:
+  name: 张三
+  age: 18
+  email: zhangsan@qq.com
