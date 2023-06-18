@@ -4,8 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import org.springframework.web.reactive.function.client.support.WebClientAdapter;
-import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 import reactor.core.publisher.Mono;
 
 import java.util.HashMap;
@@ -18,8 +16,7 @@ import java.util.Map;
  */
 @Service
 public class WeatherService {
-    @Autowired
-    private HttpServiceProxyFactory httpServiceProxyFactory;
+
     @Autowired
     private WeatherInterface weatherInterface;
     public final static String URL = "http://getweather.market.alicloudapi.com/lundear/weather1d";
