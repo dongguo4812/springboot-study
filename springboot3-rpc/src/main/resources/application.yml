@@ -1,0 +1,7 @@
+aliyun:
+  weather:
+    appCode: APPCODE 973e09131f1f4ec7b0cc7e60ae0eaaf4
+    url: http://getweather.market.alicloudapi.com
+    1dMethod: /lundear/weather1d
+    7dMethod: /lundear/weather7d
+
